@@ -13,10 +13,6 @@ a {
   border: 0;
 }
 
-body {
-  padding: 20px;
-}
-
 h1 {
   margin: 10px 0 15px 0;
 }
@@ -66,4 +62,9 @@ nav li {
 .recipes a {
   color: #7facaa;
   text-decoration: none;
+}
+
+header {
+  padding: 10px;
+  background-color: #b56663;
 }
