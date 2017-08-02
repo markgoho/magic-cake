@@ -12,6 +12,20 @@
     body{
       padding: 20px;
     }
+    .recipes{
+      padding: 0;
+    }
+    .recipes li{
+      list-style-type: none;
+      border: 1px solid crimson;
+    }
+    .recipes a{
+      text-decoration: none;
+      color: #7facaa;
+    }
+    .recipes h3{
+      border-bottom: 0;
+    }
     h2{
       margin: 10px 0 20px 0;
     }
