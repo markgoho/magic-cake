@@ -80,6 +80,10 @@ h1 {
   color: #fff;
 }
 
+header a {
+  border: 0;
+}
+
 main {
   width: 500px;
   padding: 20px;
