@@ -83,7 +83,7 @@ main {
   padding: 20px;
   border: 1px solid #ddd;
   margin: 30px auto 0 auto;
-  width: 400px;
+  width: 500px;
 }
 
 .photos {
@@ -91,7 +91,34 @@ main {
   padding: 0;
 }
 
+.photos img {
+  width: 100%;
+}
+
+/* Float and percentage-based layout */
+/* .photos li {
+  float: left;
+  width: 33.3%;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* Flex-based layout */
+/* .photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .photos li {
-  display: inline;
-  padding-left: 11px;
+  flex-grow: 1;
+} */
+
+/* Grid-based layout */
+.photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
