@@ -124,20 +124,6 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-body {
-  background: #5f5f5f url(images/background.jpg) top left repeat;
-}
-
-main {
-  background: #5f5f5f url(images/main-background.jpg) top left repeat;
-  color: white;
-}
-
-.recipes li {
-  background: #fff url(images/recipes-background.png) top left repeat;
-  color: rgb(25, 25, 255);
-}
-
 /* .featured-image {
   width: 500px;
   height: 300px;
