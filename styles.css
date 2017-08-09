@@ -1,3 +1,7 @@
+/* * {
+  box-sizing: border-box;
+} */
+
 html,
 body,
 h1,
@@ -145,4 +149,45 @@ main {
   padding: 10px;
   text-transform: uppercase;
   font-size: 2em;
+}
+
+/* Suggest Page Styles */
+
+label,
+input {
+  display: block;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+input[type=submit] {
+  width: 240px;
+  font-size: 30px;
+}
+
+input[type=text] {
+  border: 2px solid #7facaa;
+  font-size: 24px;
+  padding: 7px;
+}
+
+textarea {
+  width: 100%;
+  height: 400px;
+  padding: 7px;
+  border: 2px solid #7facaa;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+input[type=checkbox],
+label[for=newsletter] {
+  display: inline;
 }
