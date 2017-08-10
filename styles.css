@@ -165,15 +165,6 @@ main p {
   font-size: 2em;
 }
 
-<<<<<<< HEAD
-footer p {
-  color: #aaa;
-  text-align: center;
-  font-weight: bold;
-  font-size: 12px;
-  font-style: italic;
-  text-transform: uppercase;
-=======
 /* Suggest Page Styles */
 
 label,
@@ -213,5 +204,4 @@ textarea {
 input[type=checkbox],
 label[for=newsletter] {
   display: inline;
->>>>>>> forms
 }
